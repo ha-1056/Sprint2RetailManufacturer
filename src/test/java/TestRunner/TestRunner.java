@@ -9,10 +9,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/java/Feature"
 		,glue= {"StepDefination","Hooks"},
-		
-	tags= {"@run"},
 		monochrome=true,
-				plugin= {"pretty"})
+		plugin= {"pretty","html:target/cucumber-pretty","junit:target/report.xml","json:target/jsonreport.json"})
 
 public class TestRunner {
 	

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="375.78022">
+<testcase classname="Automtion testing of Reatil Website" name="Add new" time="86.228085">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When admin will click on the add new button.................................passed
+And would be redirected on the add manufacturer page........................passed
+And would write the "Harry" in the name field...............................passed
+And check if the stored default check box is checked or not.................passed
+And enter the "1" int sort field............................................passed
+And admin  will click on the save button....................................passed
+Then check the validation message "Success: You have modified manufacturers!" and check if the"Harry" "1"entered is same as seen in the record.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="Add new 2" time="46.338276">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When admin will click on the add new button.................................passed
+And would be redirected on the add manufacturer page........................passed
+And would write the "harry1" in the name field..............................passed
+And check if the stored default check box is checked or not.................passed
+And enter the "1" int sort field............................................passed
+And admin  will click on the save button....................................passed
+Then check the validation message "Success: You have modified manufacturers!" and check if the"harry1" "1"entered is same as seen in the record.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="Add new 3" time="23.609123">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When admin will click on the add new button.................................passed
+And would be redirected on the add manufacturer page........................passed
+And would write the "harry@1" in the name field.............................passed
+And check if the stored default check box is checked or not.................passed
+And enter the "1" int sort field............................................passed
+And admin  will click on the save button....................................passed
+Then check the validation message "Success: You have modified manufacturers!" and check if the"harry@1" "1"entered is same as seen in the record.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="Add new 4" time="25.308792">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When admin will click on the add new button.................................passed
+And would be redirected on the add manufacturer page........................passed
+And would write the "harry12" in the name field.............................passed
+And check if the stored default check box is checked or not.................passed
+And enter the "s2" int sort field...........................................passed
+And admin  will click on the save button....................................passed
+Then check the validation message "Success: You have modified manufacturers!" and check if the"harry12" "s2"entered is same as seen in the record.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="Add new 5" time="20.570673">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When admin will click on the add new button.................................passed
+And would be redirected on the add manufacturer page........................passed
+And would write the "" in the name field....................................passed
+And check if the stored default check box is checked or not.................passed
+And enter the "" int sort field.............................................passed
+And admin  will click on the save button....................................passed
+Then check the validation message "Manufacturer Name must be between 2 and 64 characters!" and check if the"" ""entered is same as seen in the record.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="Add new 6" time="21.813231">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When admin will click on the add new button.................................passed
+And would be redirected on the add manufacturer page........................passed
+And would write the "a" in the name field...................................passed
+And check if the stored default check box is checked or not.................passed
+And enter the "1" int sort field............................................passed
+And admin  will click on the save button....................................passed
+Then check the validation message "Manufacturer Name must be between 2 and 64 characters!" and check if the"a" "1"entered is same as seen in the record.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="admin wants to edit the entry" time="23.61616">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When Admin will click on the edit option....................................passed
+And will be redirected to the edit page.....................................passed
+And can change the  name "Anna" and the sort order"5".......................passed
+And then wil click on the save button.......................................passed
+Then check the validation message "Success: You have modified manufacturers" and check if the"Anna" "<sort>"entered is same as seen in the record.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="admin wants to edit the entry 2" time="25.254473">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When Admin will click on the edit option....................................passed
+And will be redirected to the edit page.....................................passed
+And can change the  name "a" and the sort order"5"..........................passed
+And then wil click on the save button.......................................passed
+Then check the validation message "Manufacturer Name must be between 2 and 64 characters!" and check if the"a" "<sort>"entered is same as seen in the record.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="Cancel button verificaton" time="21.703545">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When user clicks on add new button..........................................passed
+And would be redirected to the Add manufacturer page........................passed
+And clicks on cancel button.................................................passed
+Then will be redirected back................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="select and delete the entry" time="31.415738">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When user will create an new entry..........................................passed
+When the admin selects the check box of a particular field..................passed
+And click on the delete button..............................................passed
+Then alert message will appear and will delete the field....................passed
+And will select the checkbox of the header..................................passed
+Then all the checkboxes will be checked.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="ascending and descending" time="29.068818">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When admin clicks on the Manufacturer name heading..........................passed
+Then the names will be arranges in asecending...............................passed
+When admin clicks on the Manufacturer name heading  again...................passed
+Then the name will be arranged in descending order..........................passed
+When admin clicks on the sort order heading.................................passed
+Then the order will be arranges in asecending...............................passed
+When admin clicks on the Sort order heading  again..........................passed
+Then the sort order will be arranged in descending..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automtion testing of Reatil Website" name="Pagination" time="20.853306">
+<system-out><![CDATA[Given Admin is on the login page............................................passed
+When admin will enter the UserId "admin" and password "admin@123"...........passed
+And admin will click on the login button....................................passed
+And will be redirected to the the dashboard of the reatil page..............passed
+And will click on the catalog...............................................passed
+And will click on the manufacturer..........................................passed
+Then admin will be redirected to the maufacturer page.......................passed
+When User clicks ">"........................................................passed
+Then User is directed to page no. "2".......................................passed
+When User clicks "<"........................................................passed
+Then User is directed to page no. "1".......................................passed
+When User clicks "3"........................................................passed
+Then User is directed to page no. "3".......................................passed
+When User Clicks |<.........................................................passed
+Then User is directed to page no. "1".......................................passed
+When User Clicks on >|......................................................passed
+Then User is directed to page no. "3".......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

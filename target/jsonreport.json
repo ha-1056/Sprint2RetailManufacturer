@@ -1,0 +1,2857 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 35760500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998841500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5741480900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 315517901,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3002590900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3751453101,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232850700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:26:53.845Z",
+        "before": [
+          {
+            "result": {
+              "duration": 57703959401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Add new",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;add-new;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3781142900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1519546499,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin will click on the add new button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_add_new_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5557800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "would be redirected on the add manufacturer page",
+            "match": {
+              "location": "ManufactureDefination.would_be_redirected_on_the_add_manufacturer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1140452601,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "would write the \"Harry\" in the name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harry\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ManufactureDefination.would_write_the_in_the_name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1402742400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check if the stored default check box is checked or not",
+            "match": {
+              "location": "ManufactureDefination.check_if_the_stored_default_ceck_box_is_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1906734600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter the \"1\" int sort field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 10
+                }
+              ],
+              "location": "ManufactureDefination.enter_the_int_sort_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2839799300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "admin  will click on the save button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 837345700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "check the validation message \"Success: You have modified manufacturers!\" and check if the\"Harry\" \"1\"entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: You have modified manufacturers!\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Harry\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 97
+                }
+              ],
+              "location": "ManufactureDefination.check_the_validation_message_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8888600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 833066900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2290615900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14745899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2320769700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3491070200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129684900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:28:20.078Z",
+        "before": [
+          {
+            "result": {
+              "duration": 31696870500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Add new",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;add-new;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1216131300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1456830701,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin will click on the add new button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_add_new_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11386400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "would be redirected on the add manufacturer page",
+            "match": {
+              "location": "ManufactureDefination.would_be_redirected_on_the_add_manufacturer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233515099,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "would write the \"harry1\" in the name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"harry1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ManufactureDefination.would_write_the_in_the_name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118995099,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check if the stored default check box is checked or not",
+            "match": {
+              "location": "ManufactureDefination.check_if_the_stored_default_ceck_box_is_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 474119200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter the \"1\" int sort field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 10
+                }
+              ],
+              "location": "ManufactureDefination.enter_the_int_sort_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1593890499,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "admin  will click on the save button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 446341500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "check the validation message \"Success: You have modified manufacturers!\" and check if the\"harry1\" \"1\"entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: You have modified manufacturers!\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"harry1\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 98
+                }
+              ],
+              "location": "ManufactureDefination.check_the_validation_message_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6169601,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 311422400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2244355100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11529900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2259784099,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2858939099,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139272700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:29:06.418Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10618258200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Add new",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;add-new;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1254200000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1470087600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin will click on the add new button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_add_new_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5467699,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "would be redirected on the add manufacturer page",
+            "match": {
+              "location": "ManufactureDefination.would_be_redirected_on_the_add_manufacturer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198513599,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "would write the \"harry@1\" in the name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"harry@1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ManufactureDefination.would_write_the_in_the_name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66794700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check if the stored default check box is checked or not",
+            "match": {
+              "location": "ManufactureDefination.check_if_the_stored_default_ceck_box_is_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195039801,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter the \"1\" int sort field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 10
+                }
+              ],
+              "location": "ManufactureDefination.enter_the_int_sort_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1767302701,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "admin  will click on the save button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200935499,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "check the validation message \"Success: You have modified manufacturers!\" and check if the\"harry@1\" \"1\"entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: You have modified manufacturers!\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"harry@1\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 99
+                }
+              ],
+              "location": "ManufactureDefination.check_the_validation_message_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 40849401,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 372731000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2116001900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7559200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2324514600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3170819800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124665901,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:29:30.029Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12313319399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Add new",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;add-new;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1115902700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1107332200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin will click on the add new button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_add_new_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8679200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "would be redirected on the add manufacturer page",
+            "match": {
+              "location": "ManufactureDefination.would_be_redirected_on_the_add_manufacturer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215341900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "would write the \"harry12\" in the name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"harry12\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ManufactureDefination.would_write_the_in_the_name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69291900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check if the stored default check box is checked or not",
+            "match": {
+              "location": "ManufactureDefination.check_if_the_stored_default_ceck_box_is_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256627701,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter the \"s2\" int sort field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"s2\"",
+                  "offset": 10
+                }
+              ],
+              "location": "ManufactureDefination.enter_the_int_sort_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1719156601,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "admin  will click on the save button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 344876100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "check the validation message \"Success: You have modified manufacturers!\" and check if the\"harry12\" \"s2\"entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: You have modified manufacturers!\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"harry12\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"s2\"",
+                  "offset": 99
+                }
+              ],
+              "location": "ManufactureDefination.check_the_validation_message_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10335000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 350742801,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2134613300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6688599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2263868500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3150043300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184720101,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:29:55.339Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8266515700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Add new",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;add-new;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1185156199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1716922100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin will click on the add new button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_add_new_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27915400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "would be redirected on the add manufacturer page",
+            "match": {
+              "location": "ManufactureDefination.would_be_redirected_on_the_add_manufacturer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131844701,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "would write the \"\" in the name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ManufactureDefination.would_write_the_in_the_name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61335100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check if the stored default check box is checked or not",
+            "match": {
+              "location": "ManufactureDefination.check_if_the_stored_default_ceck_box_is_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131729901,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter the \"\" int sort field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 10
+                }
+              ],
+              "location": "ManufactureDefination.enter_the_int_sort_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 847640001,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "admin  will click on the save button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99688800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "check the validation message \"Manufacturer Name must be between 2 and 64 characters!\" and check if the\"\" \"\"entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manufacturer Name must be between 2 and 64 characters!\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 105
+                }
+              ],
+              "location": "ManufactureDefination.check_the_validation_message_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9131100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 474751201,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2790481700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6758701,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2236574400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2769604600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171274600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:30:15.914Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7514148400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Add new",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;add-new;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1772235699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2041518499,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin will click on the add new button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_add_new_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13790100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "would be redirected on the add manufacturer page",
+            "match": {
+              "location": "ManufactureDefination.would_be_redirected_on_the_add_manufacturer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134676300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "would write the \"a\" in the name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ManufactureDefination.would_write_the_in_the_name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46047000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check if the stored default check box is checked or not",
+            "match": {
+              "location": "ManufactureDefination.check_if_the_stored_default_ceck_box_is_checked_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265128400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter the \"1\" int sort field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 10
+                }
+              ],
+              "location": "ManufactureDefination.enter_the_int_sort_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1148249000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "admin  will click on the save button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417841901,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "check the validation message \"Manufacturer Name must be between 2 and 64 characters!\" and check if the\"a\" \"1\"entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manufacturer Name must be between 2 and 64 characters!\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"a\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 106
+                }
+              ],
+              "location": "ManufactureDefination.check_the_validation_message_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10577699,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 348794399,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2125962500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10614500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2335505599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2851011001,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123327501,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:30:37.728Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9478749800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "admin wants to edit the entry",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;admin-wants-to-edit-the-entry;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2355790299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1505995000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Admin will click on the edit option",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_edit_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59710099,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "will be redirected to the edit page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_edit_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 475737799,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "can change the  name \"Anna\" and the sort order\"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anna\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 46
+                }
+              ],
+              "location": "ManufactureDefination.can_change_the_name_and_the_sort_order(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1552591200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "then wil click on the save button",
+            "match": {
+              "location": "ManufactureDefination.then_wil_click_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 381055201,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "check the validation message \"Success: You have modified manufacturers\" and check if the\"Anna\" \"\u003csort\u003e\"entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Success: You have modified manufacturers\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Anna\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"\u003csort\u003e\"",
+                  "offset": 95
+                }
+              ],
+              "location": "ManufactureDefination.check_the_validation_message_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11637900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 293388800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2055995699,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6951400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2223565401,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2872698499,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149095200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:31:01.346Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11894771500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "admin wants to edit the entry",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;admin-wants-to-edit-the-entry;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2080003100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1723480601,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Admin will click on the edit option",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_edit_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98363100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "will be redirected to the edit page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_edit_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661303400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "can change the  name \"a\" and the sort order\"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 43
+                }
+              ],
+              "location": "ManufactureDefination.can_change_the_name_and_the_sort_order(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 905649500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "then wil click on the save button",
+            "match": {
+              "location": "ManufactureDefination.then_wil_click_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276660200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "check the validation message \"Manufacturer Name must be between 2 and 64 characters!\" and check if the\"a\" \"\u003csort\u003e\"entered is same as seen in the record",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manufacturer Name must be between 2 and 64 characters!\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"a\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"\u003csort\u003e\"",
+                  "offset": 106
+                }
+              ],
+              "location": "ManufactureDefination.check_the_validation_message_and_check_if_the_entered_is_same_as_seen_in_the_record(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19248100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 415643400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2104436600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5133699,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2216529900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2903143100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179728200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:31:26.602Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9431219499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Cancel button verificaton",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;cancel-button-verificaton",
+        "after": [
+          {
+            "result": {
+              "duration": 1139930600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1828038700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user clicks on add new button",
+            "match": {
+              "location": "ManufactureDefination.user_clicks_on_add_new_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155157500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "would be redirected to the Add manufacturer page",
+            "match": {
+              "location": "ManufactureDefination.would_be_redirected_to_the_Add_manufacturer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1144601600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "clicks on cancel button",
+            "match": {
+              "location": "ManufactureDefination.clicks_on_cancel_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159535199,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "will be redirected back",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_back()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16410200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333755400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2235120100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13120801,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2283407800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3608257500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228158700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:31:48.311Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12984972100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "select and delete the entry",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;select-and-delete-the-entry",
+        "after": [
+          {
+            "result": {
+              "duration": 1374156799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4304318800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user will create an new entry",
+            "match": {
+              "location": "ManufactureDefination.user_will_create_an_new_entry()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 546767200,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the admin selects the check box of a particular field",
+            "match": {
+              "location": "ManufactureDefination.the_admin_selects_the_check_box_of_a_particular_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1413154000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "click on the delete button",
+            "match": {
+              "location": "ManufactureDefination.click_on_the_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1392551300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "alert message will appear and will delete the field",
+            "match": {
+              "location": "ManufactureDefination.alert_message_will_appear_and_whill_delete_the_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 116692200,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "will select the checkbox of the header",
+            "match": {
+              "location": "ManufactureDefination.will_select_the_checkbox_of_the_header()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 563473499,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "all the checkboxes will be checked",
+            "match": {
+              "location": "ManufactureDefination.all_the_checkboxes_will_be_checked()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10744500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 335690000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2021852199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8161600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2199723700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3158033801,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83719600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:32:19.729Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12902250500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "ascending and descending",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;ascending-and-descending",
+        "after": [
+          {
+            "result": {
+              "duration": 1117393800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 929456500,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "admin clicks on the Manufacturer name heading",
+            "match": {
+              "location": "ManufactureDefination.admin_clicks_on_the_Manufacturer_name_heading()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66532001,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "the names will be arranges in asecending",
+            "match": {
+              "location": "ManufactureDefination.the_names_will_be_arranges_in_asecending()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3818700299,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "admin clicks on the Manufacturer name heading  again",
+            "match": {
+              "location": "ManufactureDefination.admin_clicks_on_the_Manufacturer_name_heading_again()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76133800,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "the name will be arranged in descending order",
+            "match": {
+              "location": "ManufactureDefination.the_name_will_be_arranged_in_descending_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 776186899,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "admin clicks on the sort order heading",
+            "match": {
+              "location": "ManufactureDefination.admin_clicks_on_the_sort_order_heading()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120485101,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "the order will be arranges in asecending",
+            "match": {
+              "location": "ManufactureDefination.the_order_will_be_arranges_in_asecending()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1265330900,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "admin clicks on the Sort order heading  again",
+            "match": {
+              "location": "ManufactureDefination.admin_clicks_on_the_Sort_order_heading_again()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177438100,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "the sort order will be arranged in descending",
+            "match": {
+              "location": "ManufactureDefination.the_sort_order_will_be_arranged_in_descending()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "SignUp",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8452000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin is on the login page",
+            "match": {
+              "location": "ManufactureDefination.admin_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 618997199,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "admin will enter the UserId \"admin\" and password \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "ManufactureDefination.admin_will_enter_the_UserId_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2063845900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "admin will click on the login button",
+            "match": {
+              "location": "ManufactureDefination.admin_will_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10009799,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "will be redirected to the the dashboard of the reatil page",
+            "match": {
+              "location": "ManufactureDefination.will_be_redirected_to_the_the_dashboard_of_the_reatil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2223846399,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "will click on the catalog",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2816145300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "will click on the manufacturer",
+            "match": {
+              "location": "ManufactureDefination.will_click_on_the_manufacturer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139221901,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "admin will be redirected to the maufacturer page",
+            "match": {
+              "location": "ManufactureDefination.admin_will_be_redirected_to_the_maufacturer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T09:32:48.802Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6636202300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.initialization()"
+            }
+          }
+        ],
+        "line": 88,
+        "name": "Pagination",
+        "description": "",
+        "id": "automtion-testing-of-reatil-website;pagination;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1316295100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookss.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 827233500,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User clicks \"\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003e\"",
+                  "offset": 12
+                }
+              ],
+              "location": "ManufactureDefination.user_clicks(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68649099,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "User is directed to page no. \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 29
+                }
+              ],
+              "location": "ManufactureDefination.user_is_directed_to_page_no(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 965355400,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "User clicks \"\u003c\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003c\"",
+                  "offset": 12
+                }
+              ],
+              "location": "ManufactureDefination.user_clicks(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142695399,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User is directed to page no. \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 29
+                }
+              ],
+              "location": "ManufactureDefination.user_is_directed_to_page_no(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 883745400,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User clicks \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 12
+                }
+              ],
+              "location": "ManufactureDefination.user_clicks(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78034000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "User is directed to page no. \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 29
+                }
+              ],
+              "location": "ManufactureDefination.user_is_directed_to_page_no(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 962864800,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "User Clicks |\u003c",
+            "match": {
+              "location": "ManufactureDefination.user_Clicks()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132898499,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "User is directed to page no. \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 29
+                }
+              ],
+              "location": "ManufactureDefination.user_is_directed_to_page_no(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 903442700,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User Clicks on \u003e|",
+            "match": {
+              "location": "ManufactureDefination.user_Clicks_on()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54026299,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "User is directed to page no. \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 29
+                }
+              ],
+              "location": "ManufactureDefination.user_is_directed_to_page_no(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automtion testing of Reatil Website",
+    "description": "",
+    "id": "automtion-testing-of-reatil-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Test.feature",
+    "tags": []
+  }
+]

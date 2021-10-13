@@ -651,7 +651,7 @@ public void the_sort_order_will_be_arranged_in_descending() {
 	  
 	}
 
-
+/*
 @When("admin clicks on two for second page")
 public void admin_clicks_on_two_for_second_page() {
     // Write code here that turns the phrase above into concrete actions
@@ -670,7 +670,7 @@ public void admin_clicks_on_two_for_second_page() {
 public void would_be_redirected_to_the_second_one() {
     // Write code here that turns the phrase above into concrete actions
 	try {
-	String str =driver.findElement(By.xpath("//div[contains(text(),'Showing 26 to 50 of 60 (3 Pages)')]")).getText();
+	String str =driver.findElement(By.xpath("//div[contains(text(),'Showing 26 to 50')]")).getText();
 	String s="Showing 26 to 50 of 60 (3 Pages)";
 	  Assert.assertTrue(s.contains(str));
 	}
@@ -700,7 +700,7 @@ public void admin_will_get_navigate_to_the_next_page() {
     // Write code here that turns the phrase above into concrete actions
 	try {
 String str=	 driver.findElement(By.xpath("//div[@class='col-sm-6 text-right']")).getText();
-String s="Showing 51 to 60 of 60 (3 Pages)";
+String s="Showing 51 to 60 ";
 Assert.assertTrue(s.contains(str));
 	}
 	catch(Exception e)
@@ -727,8 +727,8 @@ public void admin_clicks_on_back() {
 public void woud_be_navigated_to_the_previous_page() {
     // Write code here that turns the phrase above into concrete actions
 	try {
-	String str =driver.findElement(By.xpath("//div[contains(text(),'Showing 26 to 50 of 60 (3 Pages)')]")).getText();
-	String s="Showing 26 to 50 of 60 (3 Pages)";
+	String str =driver.findElement(By.xpath("//div[contains(text(),'Showing 26 to 50 ')]")).getText();
+	String s="Showing 26 to 50";
 	  Assert.assertTrue(s.contains(str));
 	}
 	catch(Exception e)
@@ -737,7 +737,70 @@ public void woud_be_navigated_to_the_previous_page() {
 		Assert.fail();
 	}
 
+}*/
+
+
+@When("User clicks {string}")
+public void user_clicks(String string) {
+	
+	 //driver.findElement(By.xpath("//a[text()='>']")).click();
+	 try {
+			
+		 driver.findElement(By.xpath("//a[contains(text(),'"+string+"')]")).click();
+		}
+		catch(Exception e)
+		{
+			System.out.println("Error: Unable to click on 'page' "+e);
+			Assert.fail();
+		}
 }
+
+@Then("User is directed to page no. {string}")
+public void user_is_directed_to_page_no(String string) {
+	
+	
+	  try { 
+		  String page = driver.findElement(By.xpath("//li[@class='active']//span")).getText();
+	       Assert.assertEquals(page, string); 
+	  }
+	  catch(Exception e) {
+		  
+	  System.out.println("Navigation Failed");
+	  Assert.fail();
+	  }
+	 
+}
+
+@When("User Clicks |<")
+public void user_Clicks() {
+	
+
+	try {
+		driver.findElement(By.xpath("//a[contains(text(),'|<')]")).click();
+
+	}
+	catch(Exception e)
+	{
+		System.out.println("Error: Unable to click on |< "+e);
+		Assert.fail();
+	}
+}
+
+@When("User Clicks on >|")
+public void user_Clicks_on() {
+
+	try {
+		driver.findElement(By.xpath("//a[contains(text(),'>|')]")).click();
+
+	}
+	catch(Exception e)
+	{
+		System.out.println("Error: Unable to click on >| "+e);
+		Assert.fail();
+	}
+}
+
+
 
 
 }
